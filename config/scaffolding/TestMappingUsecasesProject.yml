@@ -7,3 +7,16 @@ packages:
   gitUrl: https://github.com/Pooja-Anand-IBM-2
   gitUsername: Pooja-Anand-IBM-2
   gitBranch: main
+services:
+- serviceName: project.testmappingusecases.integrations:daftest
+  packages:
+  - name: TestMappingUsecasesProject
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1329
+- serviceName: project.testmappingusecases.streaming.connections:EmbeddedMessaging
+  packages:
+  - name: TestMappingUsecasesProject
+    version: "1.0"
